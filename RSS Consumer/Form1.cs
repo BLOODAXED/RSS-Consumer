@@ -228,32 +228,6 @@ description TEXT
 
             updateFeedItemsList(ds);
 
-            /*DataTable entries = new DataTable();
-            entries.Columns.Add("id");
-            entries.Columns.Add("feed");
-            entries.Columns.Add("table");
-            entries.Columns.Add("link");
-            entries.Columns.Add("description");
-            using (var connection = new SqliteConnection("Data Source=consumer.sqlite;Mode=ReadWrite"))
-            {
-                connection.Open();
-                var feedItems = connection.CreateCommand();
-                feedItems.CommandText = $"SELECT `link` from FEEDITEMS where `feed` IS '{feedName}')";
-
-                using (var items = feedItems.ExecuteReader())
-                {
-                    int rowNum = 0;
-                    while (items.Read())
-                    {
-                        DataRow row = entries.NewRow();
-                        row[""];
-                        entries.Rows.Add(row);
-
-                        entries.Rows[rowNum++] = row;
-                    }
-                }
-            }*/
-
         }
 
         private void feedData_TextChanged_1(object sender, EventArgs e)

@@ -81,7 +81,7 @@
             // 
             button2.Location = new Point(11, 517);
             button2.Name = "button2";
-            button2.Size = new Size(120, 23);
+            button2.Size = new Size(112, 23);
             button2.TabIndex = 4;
             button2.Text = "Cache Feed Now";
             button2.UseVisualStyleBackColor = true;
